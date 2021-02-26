@@ -2,7 +2,7 @@ name: "Github Action: get hosts every day"
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "0 */12 * * *"
 jobs:
@@ -60,4 +60,3 @@ jobs:
         convert_markdown: true
         # Optional attachments:
         # attachments: attachments.zip,git.diff,./dist/static/main.js
-        
