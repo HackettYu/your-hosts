@@ -50,7 +50,7 @@ jobs:
         # body: Build job of ${{github.repository}} completed successfully!
         # Read file contents as body:
         body: file://hosts.txt
-        to: hy.lobby@gmail.com
+        to: hackett_yu@foxmail.com
         from: Github Action # <user@example.com>
         # Optional carbon copy recipients
         # cc: kyloren@example.com,leia@example.com
