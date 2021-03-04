@@ -13,11 +13,12 @@ cat hosts.txt
 
 ## 使用 Github Aciton
 
-seh
+```txt
 ${{secrets.DOMAINS}} -> 需要查询的域名用逗号分隔拼接为字符串，eg：'test01.com,test02.com'
 ${{secrets.MAIL_USERNAME}} -> 发送邮件的 Gmail 用户名
 ${{secrets.MAIL_PASSWORD}} -> 发送邮件的密码，需要 Gmail 应用密码
 ${{secrets.MAIL_RECEIVER}} -> 接收邮件的邮箱地址
+```
 
 ## REFERENCE
 
