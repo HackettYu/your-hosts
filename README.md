@@ -19,7 +19,11 @@ ${{secrets.MAIL_USERNAME}} -> 发送邮件的 Gmail 用户名
 ${{secrets.MAIL_PASSWORD}} -> 发送邮件的密码，需要 Gmail 应用密码
 ${{secrets.MAIL_RECEIVER}} -> 接收邮件的邮箱地址
 ```
+## DOMAIN
 
+```hosts
+github.global.ssl.fastly.net,github.com,gist.github.com,assets-cdn.github.com,raw.githubusercontent.com,gist.githubusercontent.com,cloud.githubusercontent.com,camo.githubusercontent.com,avatars.githubusercontent.com,avatars0.githubusercontent.com,avatars1.githubusercontent.com,avatars2.githubusercontent.com,avatars3.githubusercontent.com,avatars4.githubusercontent.com,avatars5.githubusercontent.com,avatars6.githubusercontent.com,avatars7.githubusercontent.com,avatars8.githubusercontent.com,avatars.githubusercontent.com,github.githubassets.com,user-images.githubusercontent.com,codeload.github.com,favicons.githubusercontent.com,marketplace-screenshots.githubusercontent.com,repository-images.githubusercontent.com,api.github.com
+```
 ## REFERENCE
 
 > https://github.com/ButterAndButterfly/GithubHost
