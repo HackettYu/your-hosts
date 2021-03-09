@@ -62,3 +62,14 @@ jobs:
         convert_markdown: true
         # Optional attachments:
         # attachments: attachments.zip,git.diff,./dist/static/main.js
+
+    - name: Commit files
+      run: |
+        git config --local user.email "hy.lobyyo@gmail.com"
+        git config --local user.name "hosts(bot)"
+        git add hosts.txt
+        git commit -m "Github action: updated on $(date +%Y-%m-%d)" -a
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
