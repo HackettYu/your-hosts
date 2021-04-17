@@ -1,10 +1,10 @@
-name: "Github Action: get hosts every day"
+name: "Github Action: get hosts every month"
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 1 * *"
 jobs:
   daily:
     runs-on: ubuntu-latest
