@@ -67,7 +67,7 @@ jobs:
 
     - name: Commit files
       run: |
-        git config --local user.email "hy.lobyyo@gmail.com"
+        git config --local user.email "hy.lobby@gmail.com"
         git config --local user.name "hosts(bot)"
         git add public.txt
         git commit -m "Github action: updated on $(date +%Y-%m-%d)" -a
